@@ -1,0 +1,9 @@
+version: '2'
+services:
+  vapor:
+      image: vapor/vapor:1.0.9-xenial
+      volumes: 
+        - ./:/vapor
+      tty: true
+      ports:
+        - 8080:8080
